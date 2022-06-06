@@ -1,0 +1,43 @@
+{
+    "name": "project",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": {
+        "url": "https://github.com/AlienEEE/Ship_Booking"
+    },
+    "author": {
+        "name": "thanyaratp",
+        "url": "https://github.com/thanyaratp"
+    },
+    "contributors": [
+        {
+            "name": "Mattrixx",
+            "url": "https://github.com/Mattrixxx"
+        },
+        {
+            "name": "RennyCat",
+            "url": "https://github.com/RNCAT"
+        }
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "compression": "^1.7.4",
+        "cors": "^2.8.5",
+        "dotenv": "^9.0.0",
+        "express": "^4.17.1",
+        "firebase-admin": "^9.9.0",
+        "helmet": "^4.6.0",
+        "jsonwebtoken": "^8.5.1",
+        "multer": "^1.4.2",
+        "mysql2": "^2.2.5",
+        "sequelize": "^6.6.2"
+    },
+    "scripts": {
+        "dev": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7",
+        "prettier": "2.3.0"
+    }
+}
